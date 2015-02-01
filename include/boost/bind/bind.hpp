@@ -48,7 +48,9 @@
 
 #ifdef BOOST_MSVC
 # pragma warning(push)
+# pragma warning(disable: 4239) // nonstandard extension used
 # pragma warning(disable: 4512) // assignment operator could not be generated
+# pragma warning(disable: 4800) // forcing value to bool 'true' or 'false' (performance warning)
 #endif
 
 namespace boost
