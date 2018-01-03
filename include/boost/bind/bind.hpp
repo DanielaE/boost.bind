@@ -51,6 +51,7 @@
 # pragma warning(disable: 4239) // nonstandard extension used
 # pragma warning(disable: 4512) // assignment operator could not be generated
 # pragma warning(disable: 4800) // forcing value to bool 'true' or 'false' (performance warning)
+# pragma warning(disable: 4996) // warning STL4007: Many result_type typedefs and all argument_type, first_argument_type, and second_argument_type typedefs are deprecated in C++17
 #endif
 
 namespace boost
